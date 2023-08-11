@@ -11,8 +11,10 @@
 
 ### RabbitMQ
 
+You can install the option you want depending on the OS or by installing Docker.
+
 - MAC: `brew install rabbitmq ` [document](https://www.rabbitmq.com/install-homebrew.html)
-- Any: `docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management`
+- Docker: `docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management`
 
 #### We need start runing RabbitMQ: `brew services start rabbitmq `
 
