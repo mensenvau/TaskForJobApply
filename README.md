@@ -20,7 +20,7 @@
 
 - `npm install`
 
-## .env setup
+## .Env setup
 
 ```
 RABBITMQ_CONNETION_STRING=amqp://localhost:5672
@@ -31,7 +31,7 @@ M2_PORT=4001
 
 _RABBITMQ_CONNETION_STRING - RABBITMQ defaults to this state, if you have something different please change it!_
 
-## Run and Test:
+## Run and test:
 
 ### Run
 
