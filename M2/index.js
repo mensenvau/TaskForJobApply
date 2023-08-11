@@ -1,5 +1,5 @@
 const amqp = require("amqplib");
-const { GetUser, GetUsersAll } = require("./users");
+const { GetUser, GetUsersAll } = require("./users.data");
 let channel, connection;
 
 require("dotenv").config()
